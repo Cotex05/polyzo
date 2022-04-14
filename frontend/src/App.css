@@ -1,0 +1,49 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollHider::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Hide scrollbar for IE and Edge */
+.scrollHider {
+    -ms-overflow-style: none;
+}
+
+.navbar-brand {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.neonText {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+.bg {
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 15vh;
+    border-radius: 20px;
+    max-width: 500px;
+    border: 4px solid black;
+}
+
+@media screen and (max-width: 400px) {
+    .box {
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-top: 15vh;
+        border-radius: 20px;
+        max-width: 100%;
+        border: 4px solid black;
+    }
+}

@@ -1,0 +1,8 @@
+.parent {
+    overflow-y: scroll;
+    scroll-snap-type: y proximity;
+}
+
+.child {
+    scroll-snap-align: start;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "polyzo-backend",
+  "version": "1.0.0",
+  "description": "A backend server for polyzo app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "App"
+  ],
+  "author": "Cotex",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "firebase-admin": "^10.0.2",
+    "mongoose": "^6.1.8"
+  }
+}
